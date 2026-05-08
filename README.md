@@ -39,10 +39,10 @@ achieving an accuracy of 72.86% and a macro F1-score of 0.73.
 ---
 
 ## Project Structure
-rale.cco-chatbot/
-├── rale_cco_chatbot.ipynb        # Main Jupyter Notebook (report + code)
-├── rale_clothing_intent_dataset.csv  # Manually written multilingual dataset
-├── README.md                     # Project overview and setup guide
+rale.cco-chatbot/ \
+├── rale_cco_chatbot.ipynb        # Main Jupyter Notebook (report + code) \
+├── rale_clothing_intent_dataset.csv  # Manually written multilingual dataset \
+├── README.md                     # Project overview and setup guide \
 └── .gitignore                    # Excludes checkpoints and cache files
 
 ---
@@ -57,24 +57,26 @@ rale.cco-chatbot/
 ### Installation
 
 1. Clone the repository:
-
-git clone https://github.com/CTRL-JUJU/rale.cco-chatbot.git
-cd rale.cco-chatbot
+   ```python
+   git clone https://github.com/CTRL-JUJU/rale.cco-chatbot.git
+   cd rale.cco-chatbot
+   ```
 
 2. Install the required libraries:
-
-pip install pandas numpy matplotlib seaborn scikit-learn nltk
+   ```python
+   pip install pandas numpy matplotlib seaborn scikit-learn nltk
+   ```
 
 3. Download the required NLTK resources by running the following in
    Python or in the first code cell of the notebook:
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('punkt_tab')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-```
+   ```python
+   import nltk
+   nltk.download('punkt')
+   nltk.download('punkt_tab')
+   nltk.download('stopwords')
+   nltk.download('wordnet')
+   nltk.download('omw-1.4')
+   ```
 
 ---
 
